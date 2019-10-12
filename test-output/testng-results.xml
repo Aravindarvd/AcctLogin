@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17944" started-at="2019-10-12T02:58:53 PDT" finished-at="2019-10-12T02:59:11 PDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17944" started-at="2019-10-12T02:58:53 PDT" finished-at="2019-10-12T02:59:11 PDT">
+      <class name="package1.MainClass">
+        <test-method status="PASS" signature="beforeapp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:package1.MainClass@64729b1e]" name="beforeapp" is-config="true" duration-ms="16602" started-at="2019-10-12T02:58:53 PDT" finished-at="2019-10-12T02:59:10 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://acme-test.uipath.com/account/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar.testleaf@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[leaf@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeapp -->
+        <test-method status="PASS" signature="mainClass()[pri:0, instance:package1.MainClass@64729b1e]" name="mainClass" duration-ms="1109" started-at="2019-10-12T02:59:10 PDT" finished-at="2019-10-12T02:59:11 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainClass -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:package1.MainClass@64729b1e]" name="closeBrowser" is-config="true" duration-ms="140" started-at="2019-10-12T02:59:11 PDT" finished-at="2019-10-12T02:59:11 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- package1.MainClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

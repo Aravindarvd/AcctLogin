@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="leaf@12"/>
+  <parameter name="url" value="https://acme-test.uipath.com/account/login"/>
+  <parameter name="username" value="kumar.testleaf@gmail.com"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="package1.MainClass">
+        <methods>
+          <include name="beforeapp"/>
+          <include name="closeBrowser"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- package1.MainClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
